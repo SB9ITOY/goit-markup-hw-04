@@ -201,9 +201,6 @@ img {
     display: flex;
     gap: var(--indent);
 }
-.foto-work-exp{
-    margin-bottom: 30px;
-}
 .h3-Benefits {
     font-weight: 700;
     font-size: 14px;
@@ -296,13 +293,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-.clients-logo{
-    display: flex;
-    gap: var(--indent);
-}
-.clients-logo .item{
-    fill: var(--clients-logo) ;
-}
+
 
 /* -----------footer---------- */
 
