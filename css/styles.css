@@ -303,9 +303,7 @@ img {
 .clients-logo .item{
     fill: var(--clients-logo) ;
 }
-.foto-clients{
-    background-color: var(--clients-logo);
-}
+
 /* -----------footer---------- */
 
 .web-footer {
