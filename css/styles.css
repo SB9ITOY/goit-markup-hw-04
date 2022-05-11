@@ -6,6 +6,9 @@
  --blackcolor: #000000;
  --whitecolor: #ffffff;
  --2Acolor: #2F303A;
+
+ --items: 1;
+ --indent: 30px;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -188,11 +191,12 @@ img {
     padding: 94px 0;
 }
 .work-exp{
-display: flex;
+    display: flex;
+    gap: var(--indent);
 }
-.work-exp .item + .item{
+/* .work-exp .item + .item{
     margin-left: 30px;
-}
+} */
 .h3-Benefits {
     font-weight: 700;
     font-size: 14px;
@@ -222,10 +226,7 @@ display: flex;
 
 .our-work{
     display: flex;
-}
-.our-work .item + .item{
-    margin-left: 30px;
-    
+    gap: var(--indent);
 }
 .button-menu-p{
     margin-bottom: 34px;
@@ -246,11 +247,12 @@ display: flex;
 }
 
 .tema-list{
-display: flex;
+    display: flex;
+    gap: var(--indent);
 }
-.tema-list .item + .item{
+/* .tema-list .item + .item{
     margin-left: 30px;
-}
+} */
 .tema-list .item{
     background-color: var(--whitecolor);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -372,20 +374,17 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 94px;
+    gap: var(--indent);
 }
 .job-item{
     width: 370px;
-    margin-right: 30px;
-    margin-bottom: 30px;
     border: 1px solid #EEEEEE;
     border-top: none;
 }
-.job-item:nth-child(3n) {
-    margin-right: 0px;
+.grid-item{
+    flex-basis: calc((100% - var(--indent) * var(--items) - 1) / var(--items));
 }
-.job-item:nth-last-child(-n+3){
-    margin-bottom: 0;
-}
+
 .job-sites{
     padding: 20px 24px;
    
