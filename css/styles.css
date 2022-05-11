@@ -147,7 +147,9 @@ img {
 }
 /* ------------------------------------------------------HERO------------------------------------------- */
 .hero{
-    background-color: var(--2Acolor);
+    background-image: url(../image/Img-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -194,9 +196,6 @@ img {
     display: flex;
     gap: var(--indent);
 }
-/* .work-exp .item + .item{
-    margin-left: 30px;
-} */
 .h3-Benefits {
     font-weight: 700;
     font-size: 14px;
@@ -250,9 +249,6 @@ img {
     display: flex;
     gap: var(--indent);
 }
-/* .tema-list .item + .item{
-    margin-left: 30px;
-} */
 .tema-list .item{
     background-color: var(--whitecolor);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
