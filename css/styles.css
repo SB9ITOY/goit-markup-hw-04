@@ -6,6 +6,7 @@
  --blackcolor: #000000;
  --whitecolor: #ffffff;
  --2Acolor: #2F303A;
+ --clients-logo: #AFB1B8;
 
  --items: 1;
  --indent: 30px;
@@ -281,6 +282,30 @@ img {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
+/* -----------clients block------------ */
+.clients-block{
+    padding: 94px 0;
+}
+.clients{
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.clients-logo{
+    display: flex;
+    gap: var(--indent);
+}
+.clients-logo .item{
+    fill: var(--clients-logo) ;
+}
+.foto-clients{
+    background-color: var(--clients-logo);
+}
 /* -----------footer---------- */
 
 .web-footer {
@@ -388,7 +413,6 @@ img {
 }
 .job-item{
     width: 370px;
-
 }
 .grid-item{
     flex-basis: calc((100% - var(--indent) * var(--items) - 1) / var(--items));
