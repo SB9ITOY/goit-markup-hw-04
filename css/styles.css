@@ -351,6 +351,9 @@ img {
 .button-section .item{
     margin-right: 8px;
 }
+.button-section .item:last-child{
+    margin-right: 0px;
+}
 
 .filter-button {
     padding: 6px 22px;
@@ -362,6 +365,7 @@ img {
     background-color: var(--button-color);
     color: var(--primary-text-color);
     border: none;
+    border-radius: 8px;
 }
 
 .filter-button:focus {
@@ -384,8 +388,7 @@ img {
 }
 .job-item{
     width: 370px;
-    border: 1px solid #EEEEEE;
-    border-top: none;
+
 }
 .grid-item{
     flex-basis: calc((100% - var(--indent) * var(--items) - 1) / var(--items));
@@ -393,6 +396,8 @@ img {
 
 .job-sites{
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
    
 }
 .job{
