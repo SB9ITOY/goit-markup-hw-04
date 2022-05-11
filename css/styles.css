@@ -150,7 +150,7 @@ img {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../image/Img-hero.jpg), linear-gradient(to right, #2F303A, #2F303A);
+    background-image: url(../image/Img-hero.jpg), linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -199,6 +199,9 @@ img {
 .work-exp{
     display: flex;
     gap: var(--indent);
+}
+.foto-work-exp{
+    margin-bottom: 30px;
 }
 .h3-Benefits {
     font-weight: 700;
