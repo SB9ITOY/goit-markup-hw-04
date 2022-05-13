@@ -207,6 +207,18 @@ img {
     display: flex;
     gap: var(--indent);
 }
+.exp-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    width: 270px;
+    height: 120px;
+
+    background-color: var(--button-color);
+    border-radius: 4px;
+}
 .h3-Benefits {
     font-weight: 700;
     font-size: 14px;
@@ -407,6 +419,49 @@ img {
 .footer {
     padding: 60px 0;
     background-color: var(--2Acolor);
+}
+/* --------footer join--------- */
+
+.join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--whitecolor);
+
+}
+.join-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.join-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);;
+    border-radius: 50%;
+}
+.join-link:hover,
+.join-link:focus{
+    background-color: var(--accent-color);
+}
+.join-icon{
+    fill: var(--whitecolor);
+}
+.join-link:hover .socials-icon,
+.join-link:focus .socials-icon{
+    fill: var(--whitecolor);
 }
 /* ----------------------portfolio-------------- */
 
