@@ -421,6 +421,10 @@ img {
     background-color: var(--2Acolor);
 }
 /* --------footer join--------- */
+.flex{
+    display: flex;
+    align-items: center;
+}
 
 .join{
     display: flex;
@@ -432,7 +436,7 @@ img {
     font-size: 14px;
     line-height: 1.14px;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+
 
     color: var(--whitecolor);
 
