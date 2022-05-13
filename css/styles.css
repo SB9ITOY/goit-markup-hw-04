@@ -317,7 +317,7 @@ img {
 .clients-block{
     padding: 94px 0;
 }
-.clients{
+.our-clients{
     margin-bottom: 50px;
     font-style: normal;
     font-weight: 700;
@@ -327,8 +327,31 @@ img {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+/* -------logo-clients-------- */
+.clients{
+    display: flex;
+    gap: var(--indent);
+}
+.clients-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    width: 170px;
+    height: 92px;
 
+    border: 1px solid var(--clients-logo);
+    border-radius: 4px;
+}
+.clients-link:hover{
+    border-color: var(--accent-color);
+}
+.clients-icon{
+    fill: var(--clients-logo);
+}
+.clients-link:hover .clients-icon{
+    fill: var(--accent-color);
+}
 /* -----------footer---------- */
 
 .web-footer {
