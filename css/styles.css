@@ -424,19 +424,21 @@ img {
 .flex{
     display: flex;
     align-items: center;
-}
 
+}
+.flex .div-item{
+    margin-right: 70px;
+}
+.flex .div-item:last-child{
+    margin-right: 0px;
+}
 .join{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
     font-style: normal;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14px;
-    letter-spacing: 0.03em;
-
 
     color: var(--whitecolor);
 
