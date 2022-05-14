@@ -155,8 +155,10 @@ img {
 /* ------------------------------------------------------HERO------------------------------------------- */
 .hero{
     max-width: 1600px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
+    background-color: var(--2Acolor);
     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../image/Img-hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -219,6 +221,7 @@ img {
     background-color: var(--button-color);
     border-radius: 4px;
 }
+
 .h3-Benefits {
     font-weight: 700;
     font-size: 14px;
@@ -302,7 +305,6 @@ img {
 .socials{
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 10px;
 }
 .socials-link{
@@ -334,7 +336,6 @@ img {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
@@ -423,7 +424,7 @@ img {
 /* --------footer join--------- */
 .flex{
     display: flex;
-    align-items: center;
+    align-items: baseline;
 
 }
 .flex .div-item{
@@ -437,8 +438,6 @@ img {
     font-style: normal;
     margin-bottom: 20px;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14px;
 
     color: var(--whitecolor);
 
@@ -446,7 +445,6 @@ img {
 .join-list{
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 10px;
 }
 .join-link{
@@ -488,6 +486,7 @@ img {
 }
 
 .filter-button {
+    cursor: pointer;
     padding: 6px 22px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -497,19 +496,24 @@ img {
     background-color: var(--button-color);
     color: var(--primary-text-color);
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
+.filter-button:hover,
 .filter-button:focus {
-    background-color: var(--button-color);
-    color: var(--primary-text-color);
-}
-
-.filter-button:hover {
     background-color: var(--accent-color);
     color: var(--whitecolor);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* --------job-list---------- */
+.shadow-hover:hover,
+.shadow-hover:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .job-section{
     padding-bottom: 94px;
 }
