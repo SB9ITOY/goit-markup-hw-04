@@ -528,6 +528,7 @@ img {
     flex-wrap: wrap;
     gap: var(--indent);
 }
+
 .job-item{
     width: 370px;
 }
