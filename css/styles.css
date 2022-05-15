@@ -434,10 +434,13 @@ img {
     margin-right: 0px;
 }
 .join{
-    align-items: center;
-    font-style: normal;
-    margin-bottom: 20px;
     font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+
 
     color: var(--whitecolor);
 
@@ -470,8 +473,11 @@ img {
 /* ----------------------portfolio-------------- */
 
 /* button--------------- */
-.button-section{
+.padding-section{
     padding-top: 94px;
+    padding-bottom: 94px;
+}
+.button-section{
     margin-bottom: 50px;
 }
 .button-section .list{
@@ -514,9 +520,7 @@ img {
     0px 4px 4px rgba(0, 0, 0, 0.06), 
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.job-section{
-    padding-bottom: 94px;
-}
+
 .job-list{
     display: flex;
     flex-wrap: wrap;
