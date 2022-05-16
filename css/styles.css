@@ -356,13 +356,15 @@ img {
     border: 1px solid var(--clients-logo);
     border-radius: 4px;
 }
-.clients-link:hover{
+.clients-link:hover,
+.clients-link:focus{
     border-color: var(--accent-color);
 }
 .clients-icon{
     fill: var(--clients-logo);
 }
-.clients-link:hover .clients-icon{
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon{
     fill: var(--accent-color);
 }
 /* -----------footer---------- */
